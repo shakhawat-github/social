@@ -1,0 +1,97 @@
+/* common css start */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+body {
+  padding: 0 5px;
+}
+i {
+  color: #10375c;
+  font-size: 20px;
+}
+/* common css end */
+/* nav start */
+#navigation {
+  padding: 10px 0;
+}
+
+#navigation .navbox {
+  display: flex;
+  justify-content: space-between;
+}
+#navigation .navbox .brandlogo {
+  font-size: 20px;
+  font-weight: 600;
+  color: #10375c;
+}
+#navigation .navbox .brandlogo span {
+  margin-left: 10px;
+}
+#navigation .navbox .navright {
+  height: 30px;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+#navigation .navbox .navright label {
+  position: relative;
+  width: auto;
+  height: -webkit-fill-available;
+}
+#navigation .navbox .navright .search-extend {
+  width: 500px;
+  animation: searchextend 0.5s linear;
+  -webkit-animation: searchextend 0.5s linear;
+}
+@keyframes searchextend {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 500px;
+  }
+}
+#navigation .navbox .navright label i {
+    position: relative;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#navigation .navbox .navright label input {
+    width: 100%;
+    color: #10375c;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid transparent;
+}
+#navigation .navbox .navright .search-extend input {
+    border: 1px solid #10375c;
+    padding: 0px 10px 0 35px;
+}
+#navigation .navbox .navright  i{
+    padding: 10px;
+}
+#navigation .navbox .navright  .profile{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid #10375c;
+}
+
+/* nav end */
