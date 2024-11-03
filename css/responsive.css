@@ -1,7 +1,15 @@
 /* extra small device start */
 @media (max-width: 575.98px) { 
     #navigation .navbox .navright .search-extend {
-        width: 170px;
+        width: 180px;
     }
+    @keyframes searchextend {
+        0% {
+          width: 0px;
+        }
+        100% {
+          width: 180px;
+        }
+      }
  }
 /* extra small device end */
