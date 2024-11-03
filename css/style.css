@@ -28,6 +28,7 @@ i {
 #navigation .navbox {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 #navigation .navbox .brandlogo {
   font-size: 20px;

@@ -1,0 +1,7 @@
+/* extra small device start */
+@media (max-width: 575.98px) { 
+    #navigation .navbox .navright .search-extend {
+        width: 170px;
+    }
+ }
+/* extra small device end */
